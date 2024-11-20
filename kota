@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Kota Banjarmasin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="jumbotron">
+            <h1>Kota Banjarmasin</h1>
+
+            <p>Banjarmasin adalah kota terbesar di provinsi kalimantan selatan.
+            </p>
+        </div>
+
+
+        <nav>
+            <ul>
+                <li><a href="#Sejarah">Sejarah</a></li>
+                <li><a href="#Geografis">Geografis</a></li>
+                <li><a href="#Wisata">Wisata</a></li>
+                <li><a href="#sejarah afilasi">sejarah afilasi</a></li>
+                <li><a href="#profile card">informasi lainnya</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    <div id="content">
+
+        <article id="Sejarah" class="card">
+            <h2>sejarah</h2>
+            <img src="img/history.jpg" alt="History" class="featured-image">
+            <p>
+                Kota Banjarmasin sebelum tahun 1526 adalah nama kampung yang terletak di bagian muara
+                sungai kuin.
+                Kata banjar berasal dari bahasa melayu yang artinya kampung berderet deret sepanjang
+                tepian sungai.
+            </p>
+        </article>
+
+        <article id="Geografis" class="card">
+            <h2>Geografis</h2>
+            <img src="img/geografis.jpg" alt="geografis" class="featured-image">
+            <p>Kota Banjarmasin berlokasi di daerah kuala sungai martapura yang bermuara pada sisi
+                timur sungai barito. Letak kota Banjarmasin berada di tengah tengah indonesia.
+            </p>
+            <p>
+                Kota ini terletak ditepian timur sungai barito dan dibelah sungai martapura
+                yang berhulu dipegunungan meratus.
+            </p>
+        </article>
+        <article id="Wisata" class="card">
+            <h2>Wisata</h2>
+            <p>
+                Kota Banjarmasin memiliki berbagai objek Wisata, baik wisata alam,
+                wisata sejarah,wisata kuliner,maupun wisata pendidikan.
+            </p>
+            <section>
+                <h3>Festival pasar-terapung</h3>
+                <center>
+                    <img src="img/pasar-terapung.jpg" alt="pasar-terapung" class="featured-image">
+                </center>
+                <p>
+                    Festival budaya pasar pasar-terapung adalah sebuah festival tahunan yang
+                    berlangsung di kota Banjarmasin. Festival ini dilaksanakan oleh dinas
+                    pariwisata provinsi kalimantan selatan dan menampilkan budaya sungai yag ada
+                    di kalimantan selatan.
+                </p>
+            </section>
+
+            <section>
+                <h3>makam-sultan-suriansyah</h3>
+                <center> <img src="img/makam-sultan-suriansyah.jpg" alt="makam-sultan-suriansyah"
+                        class="featured-image">
+                </center>
+                <p>
+                    komplek makam-sultan-suriansyah adalah sebuah komplek pemakaman yang terletak
+                    di kota Banjarmasin. Sultan suriansyah merupakan raja kerajaan banjar
+                    pertama yang memeluk agama islam.
+                </p>
+            </section>
+
+            </div>
+
+        </article>
+    <aside>
+        <div article id="profile card" class="card">
+        <header>
+                <h2>Kota Banjarmasin</h2>
+                <p>Kota Seribu Sungai</p>
+                <figure>
+                    <img src="img/banjar.jpg" width="200" class="logo">
+                   <center><figcaption>Lambang</figcaption></center>
+                </figure>
+            </header>
+
+            <section>
+                <h3>Informasi lainnya</h3>
+
+                <table>
+                    <tr>
+                        <th>Negara</th>
+                        <th>Indonesia</th>
+                    </tr>
+                    <tr>
+                        <th>Hari Jadi</th>
+                        <th>24 September 1526</th>
+                    </tr>
+                    <tr>
+                    <th>Luas Total</th>
+                    <th>98,46 km </th>
+                    </tr>
+                    <tr>
+                        <th>Bahasa Daerah</th>
+                        <th>Banjar</th>
+                    </tr>
+                    <tr>
+                        <th>Kode Telepon</th>
+                        <th>+62 511</th>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </aside>
+
+    </main>
+    <footer>
+        <p>copy; 2024, @Ananda Azmi Hudaya</p>
+    </footer>
+</body>
+
+</html>
